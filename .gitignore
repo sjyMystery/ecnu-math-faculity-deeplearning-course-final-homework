@@ -2,3 +2,4 @@ train/*
 validation/*
 test/*
 venv/*
+config.py
