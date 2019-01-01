@@ -12,7 +12,7 @@ import config
 import main
 
 FLAGS = tf.app.flags.FLAGS
-tf.app.flags.DEFINE_string('train_dir', './train_data',
+tf.app.flags.DEFINE_string('train_dir', config.train_save_data_dir,
                            """Directory where to write event logs """
                            """and checkpoint.""")
 tf.app.flags.DEFINE_integer('max_steps', 1000000,
